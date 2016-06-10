@@ -6,21 +6,16 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{This page uses conditional statements and a for loop in scripts.js in order to return a string of list items up to what number the user inputed, with the exception of any numbers that can be divisible by 3, 5, or 15 if it was divisible by any of those it would replace the number with the new value(i.g) 3 = "ping", 5 = "pong", 15 = "pingpong".}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Need internet connection_
+* _Clone from Github_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{No known bugs at this time.}_
 
 ## Support and contact details
 
@@ -28,10 +23,6 @@ _{If you have any questions feel free to contact me at jrh682@gmail.com}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
-
-### License
-
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+_{In order to create this page I used HTML, CSS, and Jquery.}_
 
 Copyright (c) 2016 **_{James R. Howard student at EPICODUS}_**
