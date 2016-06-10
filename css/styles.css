@@ -3,14 +3,50 @@ body {
 }
 
 #how {
-  float: right;
+  float: left;
 }
 
-button {
-  float: right;
+.clearfix {
+  overflow: auto;
 }
 
-form {
+#about {
   float: right;
-  padding-right: 110px;
+  background-color: #252729;
+  width: 200px;
+}
+
+.about {
+  color: white;
+}
+
+.jumbotron {
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+h2 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+p {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+li {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+#butt {
+  background-color: #252729;
+  font-family: monospace;
+}
+
+#label {
+  font-size: 15px;
+  font-family: monospace;
 }
