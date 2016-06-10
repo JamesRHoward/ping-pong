@@ -16,9 +16,9 @@ _This page uses conditional statements and a for loop in scripts.js in order to 
 ## Specifications
 
 * _It has the ability to replace a list element that falls within the correct parameters_
-  * _If the input is divisible by 3, then push li "ping"_
-  * _If the input is divisible by 5, then push li "pong"_
-  * _If the input is divisible by 15, then push li "pingpong"_
+  * _If the input is divisible by 3, then push <li>"ping"</li>_
+  * _If the input is divisible by 5, then push <li>"pong"</li>_
+  * _If the input is divisible by 15, then push <li>"pingpong"</li>_
   * _Example input: 5_
   * _Example output: [1, 2, Ping, 4, Pong]_
 
