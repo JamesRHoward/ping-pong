@@ -88,13 +88,13 @@ var pingpong = function(input) {
 var number = parseInt(input);
 
 for (i = 1; i <= number; i++)
-  if (i % 3 === 0) {
+  if (i % 3 === 0 && !(i % 15 === 0)) {
     list.push("ping");
   }
-  else if (i % 5 === 0) {
+  else if (i % 5 === 0 && !(i % 15 === 0)) {
     list.push("pong");
   }
-  else if (i % 15 === 0 && !=i % 3 === 0) {
+  else if (i % 15 === 0) {
     list.push("pingpong");
   }else {
     list.push(i);
