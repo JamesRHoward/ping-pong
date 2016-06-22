@@ -16,11 +16,12 @@ _This page uses conditional statements and a for loop in scripts.js in order to 
 ## Specifications
 
 * _It has the ability to replace a list element that falls within the correct parameters_
-  * _If the input is divisible by 3, then push <li>"ping"_
-  * _If the input is divisible by 5, then push <li>"pong"_
-  * _If the input is divisible by 15, then push <li>"pingpong"_
-  * _Example input: 15_
-  * _Example output: [1, 2, Ping, 4, Pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]_
+  * _If the input is divisible by 3, it replaces multiples of 3 with "ping"_
+  * _example: input 3, output: [1, 2, "ping"]_
+  * _If the input is divisible by 5, it replaces multiples of 5 with "pong"_
+  * _example: input 5, output: [1, 2, "ping", 4, "pong"]_
+  * _If the input is divisible by 15, it replaces multiples of 15 with "pingpong"_
+  * _Example input: 15, output: [1, 2, "Ping", 4, "Pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "pingpong"]_
 
 ## Known Bugs
 

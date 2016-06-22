@@ -2,10 +2,9 @@
 $(document).ready(function(){
   $("#pingpong").submit(function(event){
     event.preventDefault();
-    list = [];
-    userInput = $("#game").val();
-    pingpong(userInput);
-    list.forEach(function(item){
+    var userInput = $("#game").val();
+    var output = pingpong(userInput);
+    output.forEach(function(item){
       $("#results").append("<li>" + item + "</li>")
     })
   });
@@ -14,7 +13,7 @@ $(document).ready(function(){
 // Business Logic
 var pingpong = function(input) {
 var number = parseInt(input);
-
+var list = [];
 for (i = 1; i <= number; i++)
   if (i % 15 === 0) {
     list.push("pingpong");
@@ -27,4 +26,5 @@ for (i = 1; i <= number; i++)
   }else {
     list.push(i);
   }
+  return list;
 };
